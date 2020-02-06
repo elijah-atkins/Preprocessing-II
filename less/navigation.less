@@ -41,7 +41,9 @@ nav {
                 color: @link-color;
 
                 &:hover {
-                    color: lighten(@link-color, 80%);
+                    color: lighten(@link-color, 50%);
+                    .animation(300ms, 0, linear);
+                    
                 }
             }
         }
