@@ -169,6 +169,7 @@ img {
   margin: 0 auto;
 }
 nav {
+<<<<<<< HEAD
   height: 8rem;
   padding: 2rem;
   background-color: #FFFFFF;
@@ -183,11 +184,21 @@ nav .nav-links {
   justify-content: space-between;
 }
 nav .nav-links ul {
+=======
+  height: 3.5rem;
+  background-color: #212529;
+}
+nav .logo {
+  font-size: 3rem;
+}
+nav .nav-links {
+>>>>>>> 4203e7118632b59fac735a7b4e59b8939e8c8579
   display: flex;
   justify-content: flex-end;
   list-style: none;
   margin-bottom: 1rem;
 }
+<<<<<<< HEAD
 nav .nav-links ul li {
   font-size: 2.5rem;
   margin-top: 1rem;
@@ -196,11 +207,24 @@ nav .nav-links ul li {
 }
 nav .nav-links ul li:hover {
   color: #eff1f3;
+=======
+nav .nav-links li {
+  margin-top: 1rem;
+  padding-right: 1rem;
+  color: #212529;
+}
+nav .nav-links li:hover {
+  color: #434b53;
+>>>>>>> 4203e7118632b59fac735a7b4e59b8939e8c8579
 }
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
+<<<<<<< HEAD
   background: #FFEBCD;
+=======
+  background: #ffebcd;
+>>>>>>> 4203e7118632b59fac735a7b4e59b8939e8c8579
 }
 .footer p {
   text-align: center;
@@ -227,7 +251,11 @@ nav .nav-links ul li:hover {
 }
 .home .inverse-content {
   padding-bottom: 30px;
+<<<<<<< HEAD
   border-bottom: 2px dashed #C0C0C0;
+=======
+  border-bottom: 2px dashed #c0c0c0;
+>>>>>>> 4203e7118632b59fac735a7b4e59b8939e8c8579
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -246,7 +274,11 @@ nav .nav-links ul li:hover {
 }
 .home .content-pick {
   padding-top: 30px;
+<<<<<<< HEAD
   border-top: 2px dashed #C0C0C0;
+=======
+  border-top: 2px dashed #c0c0c0;
+>>>>>>> 4203e7118632b59fac735a7b4e59b8939e8c8579
   display: flex;
   justify-content: space-between;
 }
