@@ -1,1 +1,23 @@
 // Navigation Styles here
+nav {
+    height: 3.5rem;
+    background-color: @shark;
+    .logo {
+        font-size: 3rem;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        margin-bottom: 1rem;
+        li {
+            margin-top: 1rem;
+            padding-right: 1rem;
+            color: @link-color;
+
+            &:hover {
+                color: lighten(@link-color, 15%);
+            }
+        }
+    }
+}

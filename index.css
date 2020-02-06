@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  height: 3.5rem;
+  background-color: #212529;
+}
+nav .logo {
+  font-size: 3rem;
+}
+nav .nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+nav .nav-links li {
+  margin-top: 1rem;
+  padding-right: 1rem;
+  color: #212529;
+}
+nav .nav-links li:hover {
+  color: #434b53;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
