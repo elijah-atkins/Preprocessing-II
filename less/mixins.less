@@ -10,8 +10,8 @@
         display: flex;
         justify-content: center;
         &:hover{
-                .animated;
-                .tdZoomOut;
+            .set-ani(500ms, 10ms, ease-in-out);
+            .tdZoomOut;
         }
 }
 
@@ -19,6 +19,7 @@
         animation-duration: @duration;
         animation-delay: @delay;
         animation-timing-function: @ease;
+        animation-fill-mode: both;
 }
 @keyframes tilt{
         0% { 

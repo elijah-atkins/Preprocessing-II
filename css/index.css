@@ -213,6 +213,7 @@ nav .nav-links .logo:hover {
   animation-duration: 500ms;
   animation-delay: 80ms;
   animation-timing-function: ease;
+  animation-fill-mode: both;
 }
 @media only screen and (max-width:600px) {
   nav .nav-links {
@@ -239,6 +240,7 @@ nav .nav-links ul li:hover {
   animation-duration: 500ms;
   animation-delay: 10ms;
   animation-timing-function: linear;
+  animation-fill-mode: both;
 }
 .footer {
   width: 100%;
@@ -357,7 +359,9 @@ nav .nav-links ul li:hover {
   justify-content: center;
 }
 .home .content-pick .destination .btn:hover {
-  animation-duration: 0.4s;
+  animation-duration: 500ms;
+  animation-delay: 10ms;
+  animation-timing-function: ease-in-out;
   animation-fill-mode: both;
   animation-name: tdZoomOut;
 }
