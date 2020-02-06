@@ -192,7 +192,7 @@ nav .nav-links .logo {
   font-size: 2.5rem;
 }
 nav .nav-links .logo:hover {
-  animation-duration: 0.3s;
+  animation-duration: 0.4s;
   animation-fill-mode: both;
   animation-name: tdDropInLeft;
 }
@@ -334,6 +334,11 @@ nav .nav-links ul li:hover {
   display: flex;
   justify-content: center;
 }
+.home .content-pick .destination .btn:hover {
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-name: tdZoomOut;
+}
 @media only screen and (max-width:600px) {
   .home .content-pick .destination {
     margin-left: 5%;
@@ -345,7 +350,7 @@ nav .nav-links ul li:hover {
 /* ==== A quirky CSS Animation Library ==== */
 /* ======================================== */
 .animated {
-  animation-duration: 0.3s;
+  animation-duration: 0.4s;
   animation-fill-mode: both;
 }
 @keyframes tdFadeIn {
@@ -881,4 +886,18 @@ nav .nav-links ul li:hover {
 }
 .tdPlopInUp {
   animation-name: tdPlopInUp;
+}
+@keyframes tdZoomOut {
+  0% {
+    opacity: 1;
+    transform: scale(0.85);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+  100% {
+    opacity: .9;
+    transform: scale(1.2);
+  }
+}
+.tdZoomOut {
+  animation-name: tdZoomOut;
 }

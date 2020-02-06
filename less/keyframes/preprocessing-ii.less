@@ -1,0 +1,23 @@
+@import (reference) '../imports/_easing.less';
+@import (reference) '../imports/_mixins.less';
+
+// Expand Entrances
+@keyframes tdZoomOut {
+    0% { 
+        opacity: 1;
+        transform: scale(0.85);
+        animation-timing-function: @easeOutCirc;
+    }
+
+    100% { 
+        opacity: .9;
+        transform: scale(1.2);
+    }
+}
+
+
+
+.tdZoomOut() {
+    animation-name: tdZoomOut;
+}
+
