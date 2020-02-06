@@ -6,11 +6,21 @@ nav {
     display: flex;
     justify-content: center;
     border-bottom: 2px dashed @navigation-border;
+    @media @mobile {
+        height: 16rem;
+    }
     .nav-links {
         width: 800px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
+        .logo {
+            font-size: 2.5rem;
+        }
+        @media @mobile {
+            flex-flow: column;
+            align-items: center;
+        }
     
         ul {
             display: flex;
@@ -18,7 +28,7 @@ nav {
             list-style: none;
             margin-bottom: 1rem;
             li {
-                font-size: 2.5rem;
+                font-size: 1.6rem;
                 margin-top: 1rem;
                 padding-left: 4rem;
                 color: @link-color;
